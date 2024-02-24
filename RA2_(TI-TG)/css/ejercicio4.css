@@ -1,0 +1,46 @@
+.caja1{
+    width: 50%;
+    border-top: green 3px dotted;
+    border-bottom: red 3px dotted;
+    border-left: blue 3px dashed;
+    border-right: orange 3px dashed;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.caja2{
+    width: 50%;
+    border-top: aqua 3px outset;
+    border-right: black 3px outset;
+    border-bottom: pink 3px outset;
+    border-left: black 3px outset;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.caja1 .caja2{
+    width: 95%;
+    border-top: aqua 3px outset;
+    border-right: black 3px outset;
+    border-bottom: pink 3px outset;
+    border-left: black 3px outset;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.caja3{
+    width: 50%;
+    border: black 3px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+.caja3 .caja3{
+    width: 95%;
+    border: black 3px solid;
+    padding: 10px;
+    text-align: center;
+}

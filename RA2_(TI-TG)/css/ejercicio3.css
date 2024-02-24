@@ -1,0 +1,18 @@
+.caja1{
+    width: 50%;
+    border: red 3px solid;
+}
+
+.caja2{
+    width: 46.3%;
+    border: blue 3px solid;
+    padding: 25px;
+    margin-top: 10px;
+}
+
+.caja3{
+    width: 42.5%;
+    border: green 3px solid;
+    padding: 50px;
+    margin-top: 10px;
+}
