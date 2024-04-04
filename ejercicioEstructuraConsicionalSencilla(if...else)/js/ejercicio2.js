@@ -1,29 +1,28 @@
-function prog2(){
-    let transporte = prompt("Ingresa tu transporte");
+function prog2() {
+    let transporte = prompt("Ingresa tu transporte: \n 1. auto\n 2. tren\n 3. bicicleta\n 4. motocicleta\n 5. autobus");
     let mensaje;
 
-    if (transporte == "auto"){
+    if (transporte == "auto") {
         mensaje = "Buen Viaje :D";
-        document.getElementById("resultado").innerHTML = mensaje;
     }
-    else if (transporte == "tren"){
+    else if (transporte == "tren") {
         mensaje = "Recuerda llevar dinero para tu pasaje :D";
-        document.getElementById("resultado").innerHTML = mensaje;
     }
-    else if (transporte == "bicicleta"){
+
+    else if (transporte == "bicicleta") {
         mensaje = "Buen Viaje :D";
-        document.getElementById("resultado").innerHTML = mensaje;
     }
-    else if (transporte == "motocicleta"){
+
+    else if (transporte == "motocicleta") {
         mensaje = "Buen Viaje :D";
-        document.getElementById("resultado").innerHTML = mensaje;
     }
-    else if (transporte == "autobus"){
+
+    else if (transporte == "autobus") {
         mensaje = "Recuerda llevar dinero para tu pasaje :D";
-        document.getElementById("resultado").innerHTML = mensaje;
     }
+
     else {
         mensaje = "Ingresa un dato válido";
-        document.getElementById("resultado").innerHTML = mensaje;
     }
+    document.getElementById("resultado").innerHTML = mensaje;
 }
