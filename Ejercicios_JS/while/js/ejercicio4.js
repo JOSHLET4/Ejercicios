@@ -3,7 +3,7 @@ function prog4() {
     let mensaje = '';
 
     while (conteo <= 100) {
-        mensaje += conteo + "<br>";
+        mensaje += conteo + " ";
         conteo += 2;
         document.getElementById("resultado").innerHTML = mensaje;
     }

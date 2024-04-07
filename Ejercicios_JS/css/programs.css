@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle at 48% 55.5%, #ff73f9 0, #ff6efc 12.5%, #ff68f8 25%, #f160ec 37.5%, #be55d8 50%, #8d4ac1 62.5%, #6040ab 75%, #343898 87.5%, #003187 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-repeat: no-repeat;
+}
+
+main {
+    height: 96.4vh;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+button {
+    border-radius: 30px;
+    border: none;
+    box-shadow: black 0 0 10px 5px;
+    padding: 10px;
+    background-image: radial-gradient(circle at 32.15% 24.5%, #bd98ff 0, #8f77f3 25%, #5555d8 50%, #0037be 75%, #0021a7 100%);
+    color: white;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: black;
+    transform: scale(1.1);
+}

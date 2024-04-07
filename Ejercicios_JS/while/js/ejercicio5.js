@@ -3,7 +3,7 @@ function prog5(){
     let mensaje = '';
 
     while (numero > 0) {
-        mensaje += numero + "<br>";
+        mensaje += numero + " ";
         numero -= 1;
         document.getElementById("resultado").innerHTML = mensaje;
     }
