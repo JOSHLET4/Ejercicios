@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.borde-Azul{
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    background:linear-gradient(90deg, rgba(0,33,36,1) 0%, rgba(34,142,162,1) 0%, rgba(53,124,191,1) 4%, rgba(5,168,140,1) 32%);
+    height: 300px;
+    max-width: 500px;
+    width: 90%;
+}
+
+.contenedor-fechaReloj{
+    background-color: rgb(74, 74, 74);
+    max-width: 450px;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: inset black 5px;
+}
+
+#reloj{
+    font-family: Orbitron;
+    font-size: 50px;
+    color: white;
+}
+
+#reloj strong{
+    font-size: 35px;
+}
+
+
+#reloj span{
+    font-size: 20px;
+    color: rgb(147, 147, 147);
+}
