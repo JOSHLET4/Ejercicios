@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: radial-gradient(circle, rgba(143,140,32,1) 0%, rgba(106,21,38,1) 100%);
@@ -22,6 +23,9 @@ section{
 
 .entrada input{
     margin-top: 10%;
+    color: white;
+    text-align: right;
+    font-size: 155%;
     width: 85%;
     height: 50px;
     background: linear-gradient(90deg, rgba(0,33,36,1) 0%, rgba(4,22,25,1) 0%, rgba(31,72,111,1) 0%, rgba(6,48,41,1) 66%);
@@ -50,6 +54,11 @@ section{
     color: white;
     border-radius: 5px;
     border: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 @media (min-width:900px){

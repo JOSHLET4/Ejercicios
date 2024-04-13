@@ -5,41 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/ejemplo3.css">
-    <title>Document</title>
+    <title>Calculadora</title>
 </head>
 
 <body>
+    <strong><h1>Ejemplo 3</h1></strong>
+<a href="../index.html">INICIO</a>
     <section>
         <div class="entrada">
-            <input type="text">
+            <input id="mostrar" type="text">
         </div>
         <div class="funciones">
             <li class="botones">
-                <button value="7">7</button>
-                <button value="8">8</button>
-                <button value="9">9</button>
-                <button value="/">÷</button>
+                <button class="numero" id="7">7</button>
+                <button class="numero" id="8">8</button>
+                <button class="numero" id="9">9</button>
+                <button class="operador" id="/">÷</button>
             </li>
             <li class="botones">
-                <button value="4">4</button>
-                <button value="5">5</button>
-                <button value="6">6</button>
-                <button value="7">x</button>
+                <button class="numero" id="4">4</button>
+                <button class="numero" id="5">5</button>
+                <button class="numero" id="6">6</button>
+                <button class="operador" id="*">x</button>
             </li>
             <li class="botones">
-                <button value="1">1</button>
-                <button value="2">2</button>
-                <button value="3">3</button>
-                <button value="4">-</button>
+                <button class="numero" id="1">1</button>
+                <button class="numero" id="2">2</button>
+                <button class="numero" id="3">3</button>
+                <button class="operador" id="-">-</button>
             </li>
             <li class="botones">
-                <button value="0">0</button>
-                <button value=".">.</button>
-                <button value="=">=</button>
-                <button value="+">+</button>
+                <button class="numero" id="0">0</button>
+                <button class="numero" id=".">.</button>
+                <button class="operador" id="+">+</button>
+                <button class="operador" id="=">=</button>
+                <button id="limpiar">C</button>
             </li>
         </div>
     </section>
+    <script src="js/ejemplo3.js"></script>
 </body>
 
 </html>
