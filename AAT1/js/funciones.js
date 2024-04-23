@@ -1,5 +1,5 @@
 //cargo en un arreglo las imganes de las banderas. Este sera el orden que se mostrarán
-let banderas = ["imag1.jpg", "imag1.jpg", "imag1.jpg", "imag1.jpg", "imag1.jpg"];
+let banderas = ["1 (1).png", "2 (1).png", "3 (1).png", "4 (1).png", "5 (1).png"];
 
 //arreglo que guardara la opcion correcta
 let correcta = [2,2,1,1,0];
@@ -7,11 +7,11 @@ let correcta = [2,2,1,1,0];
 //arreglo que guardara los paises a mostrar en cada jugada
 let opciones = [];
 //cargo en el arreglo opciones las opciones a mostrar en cada jugada
-opciones.push(["SUDAFRICA", "SINGAPUR", "PANAMA"]);
-opciones.push(["PERU", "ITALIA", "BOLIVIA"]);
-opciones.push(["TUNEZ", "ANDORRA", "ANTIGUA Y BARBUDA"]);
-opciones.push(["UCRANIA", "REINO UNIDO", "MADAGASCAR"]);
-opciones.push(["NAMIBIA", "OMAN", "ETIOPIA"]);
+opciones.push(["De modo", "De negación", "De tiempo"]);
+opciones.push(["Zagreb", "Bratislava", "Copenhague"]);
+opciones.push(["Julio César", "Augusto", "Nerón"]);
+opciones.push(["Marte", "Sol", "Saturno"]);
+opciones.push(["Fémur", "Tibia", "Húmero"]);
 
 //variable que guarda la posicion actual
 let posActual = 0;
